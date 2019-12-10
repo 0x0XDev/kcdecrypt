@@ -7,7 +7,7 @@ Currently supported Keychain-DataTypes:
 
 ### Usage:
 ```
-User Keychain
+User Keychain/iCloud MME-Token
 	./kcdecrypt -u [options]
 
 	Options: -P <path_to_userkc> [-e] [-t <token_dir>] -p <user_password> [-o <out_dir>] [-v[v]]
