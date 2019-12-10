@@ -16,7 +16,7 @@ User Keychain
 	-e: If the decrypted Sqlite3 DB should be saved in <out_dir>
 	-t: Likely '{User}/Library/Application\ Support/iCloud/Accounts'
 	-p: User Login-Password or custom keychain if changed
-	-e: Directory, where the data should be saved. Required if '-e' or '-t' used.
+	-o: Directory, where the data should be saved. Required if '-e' or '-t' used.
 	-v: Get Verbose log. Use '-vv' for even more verbose log.
 
 System Keychain (not implemented yet)
@@ -29,5 +29,10 @@ iCloud Keychain (not implemented yet)
 Binary is compiled for `Mach-O X86_64`(MacOS)
 
 ### Changelog:
-1.1: Added option to create iCloud MME-Tokens
-1.0: Initial Release
+```
+[1.1]
+- Added option to create iCloud MME-Tokens
+
+[1.0]
+- Initial Release
+```
