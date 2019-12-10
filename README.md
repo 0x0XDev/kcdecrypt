@@ -1,6 +1,10 @@
 ## kcdecrypt
 OSX Keychain Decrypt Utility - Written in pure C
 
+Currently supported Keychain-DataTypes:
+`GENERIC_PASSWORD`
+`INTERNET_PASSWORD`
+
 ### Usage:
 ```
 User Keychain
